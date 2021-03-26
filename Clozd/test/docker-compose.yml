@@ -39,7 +39,7 @@ services:
       - "traefik.docker.network=default"
       # auth
       # - "traefik.http.routers.employees_https.middlewares=employees-auth"
-      # - "traefik.http.middlewares.employees-auth.basicauth.users=
+      # - "traefik.http.middlewares.employees-auth.basicauth.users=qogcil:$$2y$$12$$p9QopE6qRVgbJNEaUXxJ7ezXxqdR0gcEwi42ErqEK4Eg4JC4x/WhG"
 
 
   back-user:
@@ -82,7 +82,7 @@ services:
       - "traefik.docker.network=default"
       # auth
       # - "traefik.http.routers.employees_https.middlewares=employees-auth"
-      # - "traefik.http.middlewares.employees-auth.basicauth.users=
+      # - "traefik.http.middlewares.employees-auth.basicauth.users=qogcil:$$2y$$12$$p9QopE6qRVgbJNEaUXxJ7ezXxqdR0gcEwi42ErqEK4Eg4JC4x/WhG"
 
 networks:
   default:
