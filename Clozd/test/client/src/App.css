@@ -1,0 +1,66 @@
+.list {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    text-align: center;
+}
+
+.fullList {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    height: fit-content;
+
+}
+
+.sideColumn{
+    width: 100%;
+}
+
+.centerColumn{
+    width: 1000px;
+}
+
+.topRow{
+    height: 5vw;
+}
+
+.bottomRow{
+    height: 3vw;
+}
+
+.middleRow{
+    height: 1vw;
+}
+
+.largeMiddleRow{
+    height: 2vw;
+}
+
+.resetButton{
+    margin: 20px;
+    height: 60px;
+    width: 200px;
+}
+
+.title {
+    font-size: 1.8vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.fullName {
+    padding: .2vw;
+    font-size: 1.5vw;
+}
+
+.detailButtonText {
+    font-size: .8vw;
+}
